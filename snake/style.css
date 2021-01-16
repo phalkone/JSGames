@@ -1,0 +1,20 @@
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  height: 800px;
+  width: 600px;
+  border: 5px solid blue;
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+}
