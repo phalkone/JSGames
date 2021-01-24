@@ -1,0 +1,88 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid {
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px solid black;
+  width: 260px;
+  height: 520px;
+}
+
+#nextpiece {
+  display: flex;
+  flex-flow: row wrap;
+  width: 260px;
+  height: 60px;
+}
+
+#nexttext {
+  padding-right: 20px;
+}
+
+#next {
+  display: flex;
+  flex-flow: row wrap;
+  width: 104px;
+  height: 52px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.white {
+  background-color: white;
+  padding: 3px;
+}
+
+.cyaan {
+  background-color: cyan;
+  border: 3px groove;
+}
+
+.blue {
+  background-color: blue;
+  border: 3px groove;
+}
+
+.orange {
+  background-color: orange;
+  border: 3px groove;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 3px groove;
+}
+
+.green {
+  background-color: greenyellow;
+  border: 3px groove;
+}
+
+.purple {
+  background-color: rgb(75, 0, 128);
+  border: 3px groove;
+}
+
+.red {
+  background-color: red;
+  border: 3px groove;
+}
+
+button {
+  background-color: rgb(19, 113, 194);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 260px;
+}
